@@ -29,6 +29,8 @@
   },
   "dependencies": {
     "abacus-schema": "file:../../utils/schema",
+    "abacus-eval": "file:../../utils/eval",
+    "bignumber.js": "^2.1.0",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
