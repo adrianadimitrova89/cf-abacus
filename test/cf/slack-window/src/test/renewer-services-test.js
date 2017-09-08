@@ -371,7 +371,7 @@ const test = (secured) => {
 
       const startTestTime = moment.now();
       const bridgeOptions = pollOptions(
-        'services', 9502,
+        'stats', 9502,
         checkTwoMonthsAgoWindow
       );
       client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',

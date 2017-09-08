@@ -379,7 +379,7 @@ describe('abacus-cf-single-service-renewer-itest without oAuth', () => {
       it('submits runtime usage to usage collector', (done) => {
         const startTestTime = moment.now();
         const bridgeOptions = pollOptions(
-          'services', 9502,
+          'stats', 9502,
           checkLastMonthWindow
         );
         client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',
@@ -483,7 +483,7 @@ describe('abacus-cf-single-service-renewer-itest without oAuth', () => {
 
         const startTestTime = moment.now();
         const bridgeOptions = pollOptions(
-          'services', 9502,
+          'stats', 9502,
           checkLastMonthWindow
         );
         client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',

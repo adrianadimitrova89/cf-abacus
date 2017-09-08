@@ -372,7 +372,7 @@ const test = (secured) => {
       this.timeout(totalTimeout + 2000);
 
       client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',
-        checkReport, pollOptions('services', 9502), done);
+        checkReport, pollOptions('stats', 9502), done);
     });
   });
 

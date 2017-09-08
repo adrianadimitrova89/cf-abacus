@@ -351,7 +351,7 @@ const test = (secured) => {
     it('submits usage and gets expected report back', function(done) {
       this.timeout(totalTimeout + 2000);
 
-      const bridgeOptions = pollOptions('services', 9502);
+      const bridgeOptions = pollOptions('stats', 9502);
       client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',
         checkReport, bridgeOptions, done);
     });

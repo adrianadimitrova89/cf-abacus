@@ -328,7 +328,7 @@ describe('abacus-cf-single-service-accuracy-itest', () => {
     });
 
     it('submits usage and gets expected report back', (done) => {
-      const bridgeOptions = pollOptions('services', 9502);
+      const bridgeOptions = pollOptions('stats', 9502);
       client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',
         checkReport, bridgeOptions, done);
     }).timeout(totalTimeout);;
@@ -344,7 +344,7 @@ describe('abacus-cf-single-service-accuracy-itest', () => {
     });
 
     it('submits usage and gets expected report back', (done) => {
-      const bridgeOptions = pollOptions('services', 9502);
+      const bridgeOptions = pollOptions('stats', 9502);
       client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',
         checkReport, bridgeOptions, done);
     }).timeout(totalTimeout);
