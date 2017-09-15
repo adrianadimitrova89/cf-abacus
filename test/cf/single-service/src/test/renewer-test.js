@@ -167,6 +167,16 @@ describe('abacus-cf-single-service-renewer-itest without oAuth', () => {
         resources: serviceUsageEvents
       });
     });
+    routes.get('/v2/services', (request, response) => {
+      response.status(200).send({
+        entity: {
+          label: 'service'
+        },
+        metadata: {
+          guid: 'bc3690b2-cc50-4475-b2cf-44d68c51f9d3'
+        }
+      });
+    });
     routes.get('/v2/info', (request, response) => {
       oAuthDebug('Requested API info');
       response.status(200).send({
@@ -207,7 +217,6 @@ describe('abacus-cf-single-service-renewer-itest without oAuth', () => {
     process.env.JWTALGO = tokenAlgorithm;
     process.env.SERVICES = `{
       "service": {
-        "guid": "bc3690b2-cc50-4475-b2cf-44d68c51f9d3",
         "plans": ["standard"]
       }
     }`;
