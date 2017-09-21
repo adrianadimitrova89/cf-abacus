@@ -224,6 +224,8 @@ const test = (secured) => {
         "plans": ["standard"]
       }
     }`;
+    process.env.MIN_INTERVAL_TIME = 500;
+    process.env.GUID_MIN_AGE = 8000;
 
     // Change slack window to be able to submit usage for last 2 months
     process.env.SLACK = '63D';
@@ -287,7 +289,7 @@ const test = (secured) => {
   const checkReport = (checkFn, cb) => {
     request.get('http://localhost:9088/v1/metering/organizations' +
       '/:organization_id/aggregated/usage', {
-        organization_id: 'e8139b76-e829-4af3-b332-87316b1c0a6c',
+        organization_id: orgGuid,
         headers: {
           authorization: 'bearer ' + signedSystemToken
         }
