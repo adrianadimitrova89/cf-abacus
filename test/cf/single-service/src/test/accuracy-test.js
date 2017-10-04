@@ -328,7 +328,7 @@ describe('abacus-cf-single-service-accuracy-itest', () => {
     }
   ];
 
-  context('with an service started 1 hour before', () => {
+  context('with a service started 1 hour before', () => {
 
     beforeEach(() => {
       serviceUsageEvents = generatePastAppUsage(1, 'hour');
@@ -344,7 +344,7 @@ describe('abacus-cf-single-service-accuracy-itest', () => {
 
   });
 
-  context('with an service started 2 hours before', () => {
+  context('with a service started 2 hours before', () => {
 
     beforeEach(() => {
       serviceUsageEvents = generatePastAppUsage(2, 'hours');
