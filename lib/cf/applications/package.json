@@ -36,6 +36,7 @@
   "dependencies": {
     "abacus-batch": "file:../../utils/batch",
     "abacus-breaker": "file:../../utils/breaker",
+    "abacus-bridge": "file:../../utils/bridge",
     "abacus-carryover": "file:../../utils/carryover",
     "abacus-cluster": "file:../../utils/cluster",
     "abacus-debug": "file:../../utils/debug",
