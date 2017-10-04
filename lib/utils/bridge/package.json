@@ -32,6 +32,7 @@
     "abacus-dbclient": "file:../dbclient",
     "abacus-debug": "file:../debug",
     "abacus-moment": "file:../moment",
+    "abacus-paging": "file:../paging",
     "abacus-partition": "file:../partition",
     "abacus-perf": "file:../perf",
     "abacus-retry": "file:../retry",
