@@ -374,7 +374,7 @@ const test = (secured) => {
         'stats', 9502,
         checkCurrentMonthWindow
       );
-      client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',
+      client.waitForStartAndPoll('http://localhost::p/v1/:component',
         checkReport, bridgeOptions, (error) => {
           if (error) {
             done(error);
@@ -439,7 +439,7 @@ const test = (secured) => {
         'stats', 9502,
         () => {}
       );
-      client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',
+      client.waitForStartAndPoll('http://localhost::p/v1/:component',
         checkReport, bridgeOptions, (error) => {
           if (error) {
             done(error);

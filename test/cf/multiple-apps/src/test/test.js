@@ -673,10 +673,10 @@ describe('abacus-cf multiple-apps-test with oAuth', () => {
 
         const startTestTime = moment.now();
         const bridgeOptions = pollOptions(
-          'applications', 9500,
+          'stats', 9500,
           checkLastMonth
         );
-        client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',
+        client.waitForStartAndPoll('http://localhost::p/v1/:component',
           checkReport, bridgeOptions, (error) => {
             if (error) {
               done(error);
@@ -926,17 +926,17 @@ describe('abacus-cf multiple-apps-test with oAuth', () => {
 
         const startTestTime = moment.now();
         const bridgeOptions = pollOptions(
-          'applications', 9500,
+          'stats', 9500,
           () => {}
         );
-        client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',
+        client.waitForStartAndPoll('http://localhost::p/v1/:component',
           checkReport, bridgeOptions, (error) => {
             if (error) {
               done(error);
               return;
             }
             npm.startModules([npm.modules.renewer]);
-       
+
             const renewerOptions = pollOptions(
               'renewer', 9501,
               checkThisMonth,

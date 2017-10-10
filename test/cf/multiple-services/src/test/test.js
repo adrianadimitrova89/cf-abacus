@@ -459,7 +459,7 @@ describe('abacus-cf multiple-services-test with oAuth', () => {
           'stats', 9502,
           checkLastMonth
         );
-        client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',
+        client.waitForStartAndPoll('http://localhost::p/v1/:component',
           checkReport, bridgeOptions, (error) => {
             if (error) {
               done(error);

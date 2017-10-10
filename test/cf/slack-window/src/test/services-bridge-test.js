@@ -380,7 +380,7 @@ const test = (secured) => {
     it('usage is rejected', function(done) {
       this.timeout(totalTimeout + 2000);
 
-      client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',
+      client.waitForStartAndPoll('http://localhost::p/v1/:component',
         checkReport, pollOptions('stats', 9502), done);
     });
   });

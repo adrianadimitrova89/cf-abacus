@@ -355,7 +355,7 @@ describe('abacus-cf-single-service-service-itest without oAuth', () => {
         this.timeout(totalTimeout + 2000);
 
         const bridgeOptions = pollOptions('stats', 9502);
-        client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',
+        client.waitForStartAndPoll('http://localhost::p/v1/:component',
           checkReport, bridgeOptions, done);
       });
     });
@@ -443,7 +443,7 @@ describe('abacus-cf-single-service-service-itest without oAuth', () => {
         this.timeout(totalTimeout + 2000);
 
         const bridgeOptions = pollOptions('stats', 9502);
-        client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',
+        client.waitForStartAndPoll('http://localhost::p/v1/:component',
           checkReport, bridgeOptions, done);
       });
     });

@@ -391,7 +391,7 @@ describe('abacus-cf-single-service-renewer-itest without oAuth', () => {
           'stats', 9502,
           checkLastMonthWindow
         );
-        client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',
+        client.waitForStartAndPoll('http://localhost::p/v1/:component',
           checkReport, bridgeOptions, (error) => {
             if (error) {
               done(error);
@@ -495,7 +495,7 @@ describe('abacus-cf-single-service-renewer-itest without oAuth', () => {
           'stats', 9502,
           checkLastMonthWindow
         );
-        client.waitForStartAndPoll('http://localhost::p/v1/cf/:component',
+        client.waitForStartAndPoll('http://localhost::p/v1/:component',
           checkReport, bridgeOptions, (error) => {
             if (error) {
               done(error);
