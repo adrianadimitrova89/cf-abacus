@@ -27,11 +27,10 @@
     "pub": "publish"
   },
   "dependencies": {
-    "abacus-basic": "file:../basic",
-    "abacus-debug": "file:../debug",
-    "abacus-moment": "file:../moment",
-    "abacus-oauth": "file:../oauth",
     "abacus-perf": "file:../perf",
+    "abacus-debug": "file:../debug",
+    "abacus-moment": "file:../../utils/moment",
+    "abacus-oauth": "file:../oauth",
     "abacus-urienv": "file:../urienv",
     "underscore": "^1.8.3"
   },
