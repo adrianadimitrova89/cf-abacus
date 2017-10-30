@@ -34,6 +34,7 @@
     "cfpush": "cfpush"
   },
   "dependencies": {
+    "@dynatrace/oneagent": "^1.125.216-1.0.3",
     "abacus-bridge": "file:../../utils/bridge",
     "abacus-debug": "file:../../utils/debug",
     "abacus-launcher": "file:../../utils/launcher",

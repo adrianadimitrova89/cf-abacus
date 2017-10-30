@@ -35,6 +35,7 @@
     "store-mappings": "node src/tasks/store-service-mappings.js"
   },
   "dependencies": {
+    "@dynatrace/oneagent": "^1.125.216-1.0.3",
     "abacus-bridge": "file:../../utils/bridge",
     "abacus-debug": "file:../../utils/debug",
     "abacus-ext-plan-mappings": "0.0.6-dev.9",

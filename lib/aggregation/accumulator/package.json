@@ -33,15 +33,16 @@
     "cfpush": "cfpush"
   },
   "dependencies": {
-    "abacus-oauth": "file:../../utils/oauth",
+    "@dynatrace/oneagent": "^1.125.216-1.0.3",
     "abacus-cluster": "file:../../utils/cluster",
     "abacus-dataflow": "file:../../utils/dataflow",
     "abacus-debug": "file:../../utils/debug",
     "abacus-launcher": "file:../../utils/launcher",
     "abacus-metering-config": "file:../../config/metering",
+    "abacus-oauth": "file:../../utils/oauth",
     "abacus-rating-config": "file:../../config/rating",
-    "abacus-router": "file:../../utils/router",
     "abacus-request": "file:../../utils/request",
+    "abacus-router": "file:../../utils/router",
     "abacus-seqid": "file:../../utils/seqid",
     "abacus-timewindow": "file:../../utils/timewindow",
     "abacus-transform": "file:../../utils/transform",

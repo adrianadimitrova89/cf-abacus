@@ -33,6 +33,7 @@
     "cfpush": "cfpush"
   },
   "dependencies": {
+    "@dynatrace/oneagent": "^1.125.216-1.0.3",
     "abacus-cluster": "file:../../utils/cluster",
     "abacus-dataflow": "file:../../utils/dataflow",
     "abacus-dbclient": "file:../../utils/dbclient",

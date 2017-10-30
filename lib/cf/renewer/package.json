@@ -33,6 +33,7 @@
     "cfpush": "cfpush"
   },
   "dependencies": {
+    "@dynatrace/oneagent": "^1.125.216-1.0.3",
     "abacus-batch": "file:../../utils/batch",
     "abacus-breaker": "file:../../utils/breaker",
     "abacus-carryover": "file:../../utils/carryover",
