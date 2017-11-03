@@ -1,0 +1,7 @@
+---
+applications:
+- name: rabbitmq-consumer
+  command: node consumer.js
+  memory: 128M
+  instances: 1
+  path: .
