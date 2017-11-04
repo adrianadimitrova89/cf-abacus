@@ -11,10 +11,12 @@ default:
   EUREKA: 9990
   SECURED: false
   AUTH_SERVER: 9882
+  TRACING_SERVICE_NAME: collector
   CLIENT_ID:
   CLIENT_SECRET:
   JWTKEY:
   JWTALGO:
+  CLUSTER: false
 
 smalldb:
   OUTPUT_DB: false

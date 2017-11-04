@@ -35,6 +35,7 @@
   "dependencies": {
     "abacus-batch": "file:../../utils/batch",
     "abacus-breaker": "file:../../utils/breaker",
+    "abacus-context": "file:../../utils/context",
     "abacus-cluster": "file:../../utils/cluster",
     "abacus-oauth": "file:../../utils/oauth",
     "abacus-dataflow": "file:../../utils/dataflow",
@@ -48,6 +49,7 @@
     "abacus-retry": "file:../../utils/retry",
     "abacus-router": "file:../../utils/router",
     "abacus-seqid": "file:../../utils/seqid",
+    "abacus-tracing": "file:../../utils/tracing",
     "abacus-transform": "file:../../utils/transform",
     "abacus-urienv": "file:../../utils/urienv",
     "abacus-usage-schemas": "file:../../config/schemas",

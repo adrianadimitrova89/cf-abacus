@@ -13,6 +13,8 @@ default:
   CLIENT_SECRET:
   JWTKEY:
   JWTALGO:
+  TRACING_SERVICE_NAME: meter
+  CLUSTER: false
 
 smalldb:
   INPUT_DB: false

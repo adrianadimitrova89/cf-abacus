@@ -33,6 +33,7 @@
     "abacus-breaker": "file:../breaker",
     "abacus-oauth": "file:../oauth",
     "abacus-cluster": "file:../cluster",
+    "abacus-context": "file:../context",
     "abacus-dbclient": "file:../dbclient",
     "abacus-debug": "file:../debug",
     "abacus-dedupe": "file:../dedupe",
