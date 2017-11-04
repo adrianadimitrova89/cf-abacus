@@ -12,6 +12,8 @@ default:
   CLIENT_SECRET:
   JWTKEY:
   JWTALGO:
+  CLUSTER: false
+  TRACING_SERVICE_NAME: aggregator
 
 smalldb:
   INPUT_DB: false
