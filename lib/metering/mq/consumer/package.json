@@ -14,8 +14,8 @@
   "dependencies": {
     "amqplib": "^0.5.1",
     "abacus-express": "file:../../../utils/express",
-    "abacus-oauth": "file:../../../utils/oauth",
-    "abacus-request": "file:../../../utils/request"
+    "abacus-request": "file:../../../utils/request",
+    "abacus-oauth": "file:../../../utils/oauth"
   },
 
   "devDependencies": {
