@@ -155,6 +155,7 @@
     "abacus-webhook": "file:lib/utils/webhook",
     "abacus-webproxy": "file:lib/utils/webproxy",
     "abacus-yieldable": "file:lib/utils/yieldable",
+    "amqplib": "^0.5.2",
     "async": "^2.6.0",
     "underscore": "^1.8.3"
   },
