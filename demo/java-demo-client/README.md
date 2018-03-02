@@ -7,7 +7,7 @@ This README.md will explain what the demo is doing, how to build and run it, how
 Notes:
 * The simple demo here is intended for people that are interested in having a look at how usage data can be sent to Abacus using a Java application.
 * If you are looking for a demo in JavaScript, please have a look at the [official Abacus JavaScript client demo](https://github.com/cloudfoundry-incubator/cf-abacus/blob/master/demo/client/src/test/test.js).
-* If you simply want to get you usage via bash script you can check [this script](https://github.com/cloudfoundry-incubator/cf-abacus/blob/master/demo/scripts/abacus-get-usage.sh).
+* If you simply want to get you usage via bash script you can check [this script](https://github.com/cloudfoundry-incubator/cf-abacus/blob/master/demo/scripts/abacus-get-report.sh).
 
 
 ## Contents
